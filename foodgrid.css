@@ -7,12 +7,23 @@
 	-webkit-box-sizing:border-box; /* Safari */
 }
 body{
+	background: #fada3e;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+body h1{
+	margin-top: 30px;
+}
+.bigcontainer{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 100vh;
-	background: #fada3e;
+	min-height: 90vh;
+	
+
 }
+
 .container{
 	position: relative;
 	width: 1000px;
@@ -88,4 +99,19 @@ body{
 	.container .card .content{
 		height: 200px;
 	}
+}
+
+.btn{
+	color: #fff;
+	background: #000;
+	display: block;
+	line-height: 30px;
+	width: 100px;
+	position: relative;
+	margin: auto;
+	margin-bottom: 20px;
+	text-decoration: none;
+}
+.btn:active{
+	color: black;
 }
